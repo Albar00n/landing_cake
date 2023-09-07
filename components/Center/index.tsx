@@ -46,7 +46,7 @@ const CenterP = () => {
 					</Text>
 				</Stack>
 				<Stack w={{ base: "100%", md: "45%" }}>
-					<Img src="/image5.png" alt="" h="100%" w="100%" />
+					<Img src="/Image5.png" alt="" h="100%" w="100%" />
 				</Stack>
 			</Container>
 		</>
