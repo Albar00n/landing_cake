@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
 	return (
 		<>
-			<Box id="cafés" boxShadow={"20px 20px 20px  #00000036"}>
+			<Box w="100%" h="100%" id="cafés" boxShadow={"20px 20px 20px  #00000036"}>
 				<Container
 					maxW="1200px"
 					my={{ base: "5rem", md: "0" }}
@@ -33,11 +33,11 @@ const Hero = () => {
 					</Box>
 					<Box
 						zIndex="-1"
-						position={{ base: "absolute", md: "relative" }}
+						position={{ base: "absolute", lg: "relative" }}
 						right={{ base: "-25rem", md: "0" }}
 						top={{ base: "-1rem", md: "-5rem", lg: "-1rem" }}
 					>
-						<Img src="/header.png" alt="" w="" h="" zIndex="-1" />
+						<Img src="/header.png" alt="" w="100%" h="" zIndex="-1" />
 					</Box>
 				</Container>
 			</Box>
