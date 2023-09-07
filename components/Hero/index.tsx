@@ -10,7 +10,7 @@ const Hero = () => {
 				h="100%"
 				id="cafés"
 				position={"relative"}
-				boxShadow={"1px 1px 1px  #00000036"}
+				boxShadow={"10px 10px 10px  #00000036"}
 			>
 				<Container
 					maxW="1200px"
