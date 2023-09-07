@@ -61,7 +61,7 @@ const Meow = () => {
 						</Button>
 					</Box>
 					<Box w={{ base: "80%", md: "50%" }}>
-						<Img src="/image7.png" alt="" w="100%" h="100%" />
+						<Img src="/Image7.png" alt="" w="100%" h="100%" />
 					</Box>
 				</Container>
 			</Box>

@@ -32,7 +32,7 @@ const Enjoy = () => {
 					flexDirection={{ base: "column-reverse", md: "row" }}
 				>
 					<Box w={{ base: "80%", md: "50%" }}>
-						<Img src="/image6.png" alt="" w="100%" h="100%" />
+						<Img src="/Image6.png" alt="" w="100%" h="100%" />
 					</Box>
 					<Box w={{ base: "100%", md: "45%" }} my={{ base: "4rem", md: "0" }}>
 						<Heading fontSize="48px" fontWeight={"700"} color="#fbfbfb">
