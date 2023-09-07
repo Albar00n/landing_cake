@@ -4,7 +4,14 @@ import React from "react";
 const Hero = () => {
 	return (
 		<>
-			<Box w="100%" h="100%" id="cafés" boxShadow={"20px 20px 20px  #00000036"}>
+			<Box
+				// w="100%"
+				overflow="hidden"
+				h="100%"
+				id="cafés"
+				position={"relative"}
+				boxShadow={"1px 1px 1px  #00000036"}
+			>
 				<Container
 					maxW="1200px"
 					my={{ base: "5rem", md: "0" }}
@@ -12,6 +19,8 @@ const Hero = () => {
 					display={"flex"}
 					alignItems={"center"}
 					justifyContent={"space-between"}
+					overflow="hidden"
+					// position={"relative"}
 					// flexDirection={{base:"column",md:"row"}}
 				>
 					<Box w={{ base: "100%", md: "40%" }}>
@@ -35,9 +44,12 @@ const Hero = () => {
 						zIndex="-1"
 						position={{ base: "absolute", lg: "relative" }}
 						right={{ base: "-25rem", md: "0" }}
-						top={{ base: "-1rem", md: "-5rem", lg: "-1rem" }}
+						top={{ base: "0rem", md: "-5rem", lg: "-1rem" }}
+						overflow="hidden"
+						// w="100%"
+						// h="100%"
 					>
-						<Img src="/header.png" alt="" w="100%" h="" zIndex="-1" />
+						<Img src="/header.png" alt="" w="100%" h="100%" zIndex="-1" />
 					</Box>
 				</Container>
 			</Box>

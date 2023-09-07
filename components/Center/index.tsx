@@ -29,7 +29,7 @@ const CenterP = () => {
 						R$ 12,00
 					</Text>
 					<Text
-						fontSize={"70px"}
+						fontSize={"60px"}
 						fontWeight={"700"}
 						color="#4D1D1D"
 						bg=""

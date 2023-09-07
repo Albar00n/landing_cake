@@ -12,6 +12,7 @@ const Navbar = () => {
 			// backdropFilter={"blur"}
 			// // background={"#1f1f1f"}
 			// zIndex="9999999999999999999"
+			// overflow="hidden"
 		>
 			<Container
 				maxW="1200px"
@@ -19,6 +20,7 @@ const Navbar = () => {
 				display={"flex"}
 				alignItems={"center"}
 				justifyContent={"space-between"}
+				overflow="hidden"
 			>
 				<Link href="/" title="Home Cafe">
 					<Box>
